@@ -1,10 +1,5 @@
 grpc_addr = "0.0.0.0:9394"
 http_addr = "0.0.0.0:8080"
-offline_threshold = 30
-
-jwt_secret = "" 
-admin_user = "admin"
-admin_pass = "admin"
 
 hosts = [
   {name = "h1", password = "p1", alias = "n1", location = "🏠", type = "kvm", labels = "os=arch;ndd=2022/11/25;spec=2C/4G/60G;"},
